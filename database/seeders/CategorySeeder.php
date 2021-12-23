@@ -16,19 +16,19 @@ class CategorySeeder extends Seeder
     {
         //
         $category = new Category();
-        $category->name = "Doi song";
+        $category->name = "Đời sống";
         $category->save();
 
         $category = new Category();
-        $category->name = "Xa hoi";
+        $category->name = "Xã hội";
         $category->save();
 
         $category = new Category();
-        $category->name = "Kinh doang";
+        $category->name = "Kinh doanh";
         $category->save();
 
         $category = new Category();
-        $category->name = "Phap luat";
+        $category->name = "Pháp luật";
         $category->save();
     }
 }

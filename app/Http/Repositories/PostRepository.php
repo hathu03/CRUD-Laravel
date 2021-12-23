@@ -3,7 +3,9 @@
 namespace App\Http\Repositories;
 
 use App\Http\Repositories\Impl\PostRepositoryInterface;
+use App\Models\Category;
 use App\Models\Post;
+use Illuminate\Support\Facades\DB;
 
 class PostRepository extends BaseRepository implements PostRepositoryInterface
 {
@@ -11,4 +13,5 @@ class PostRepository extends BaseRepository implements PostRepositoryInterface
     {
         $this->model = $post;
     }
+
 }
